@@ -43,9 +43,9 @@ const Navbar = () => {
     >
       <div className="container-section">
         <nav className="flex items-center justify-between">
-        <a 
+          <a 
             href="#home" 
-            className="flex items-center gap-2 font-display font-bold text-primary ml-[-100px]" // <-- left shift
+            className="flex items-center gap-2 font-display font-bold text-primary"
             onClick={(e) => { 
               e.preventDefault();
               scrollToSection('#home');
@@ -57,19 +57,10 @@ const Navbar = () => {
               className="h-10 w-auto" 
             />
             <span className={cn(
-              "transition-standard text-xs md:text-lg font-serif flex gap-[2px] flex-wrap",
+              "transition-standard text-xs md:text-lg",
               isScrolled ? "text-foreground" : "text-white"
-            )}>
-              <span><span className="text-orange-500">E</span>XCELLENT</span>{" "}
-              <span><span className="text-orange-500"></span> </span>{" "}
-              <span><span className="text-orange-500">P</span>OWER</span>{" "}
-              <span><span className="text-orange-500"></span></span>{" "}
-              <span><span className="text-orange-500">E</span>NGINEERING</span>{" "}
-              <span><span className="text-orange-500"></span></span>{" "}
-              <span><span className="text-orange-500">S</span>ERVICES</span>
-            </span>
-        </a>
-
+            )}>EXCELLENT POWER ENGINEERING SERVICES</span>
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Facebook, Linkedin, Twitter, Contact } from 'lucide-react';
+import { Facebook, Linkedin, Twitter, Instagram } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -16,16 +16,10 @@ const Footer = () => {
                 alt="EXCELLENT POWER ENGINEERING SERVICES Logo" 
                 className="h-8 w-auto" 
               />
-              <div className="font-display font-bold text-lg md:text-xl font-serif text-grey">
-  <span className="text-orange-500">E</span>XCELLENT{" "}
-  <span className="text-orange-500">P</span>OWER{" "}
-  <span className="text-orange-500">E</span>NGINEERING{" "}
-  <span className="text-orange-500">S</span>ERVICES
-</div>
-
+              <div className="font-display font-bold text-lg md:text-xl text-primary font-serif">EXCELLENT POWER ENGINEERING SERVICES</div>
             </div>
-            <p className="text-muted-foreground text-sm-bold mt-2">
-            "Reliable Power, Sustainable Solutions."
+            <p className="text-muted-foreground text-sm mt-2">
+              Delivering reliable and innovative power solutions
             </p>
           </div>
           
@@ -34,7 +28,7 @@ const Footer = () => {
               <Facebook className="w-5 h-5" />
               <span className="sr-only">Facebook</span>
             </a>
-            <a href="https://www.linkedin.com/in/soban-babu-n-8aba2877 " className="text-muted-foreground hover:text-primary transition-standard">
+            <a href="#" className="text-muted-foreground hover:text-primary transition-standard">
               <Linkedin className="w-5 h-5" />
               <span className="sr-only">LinkedIn</span>
             </a>
@@ -42,13 +36,11 @@ const Footer = () => {
               <Twitter className="w-5 h-5" />
               <span className="sr-only">Twitter</span>
             </a>
-            <a href="mailto:expoengg15@gmail.com" 
-                className="text-muted-foreground hover:text-primary transition-standard"
-            >
-              <Contact className="w-5 h-5" />
-              <span className="sr-only">Email</span>
+            <a href="#" className="text-muted-foreground hover:text-primary transition-standard">
+              <Instagram className="w-5 h-5" />
+              <span className="sr-only">Instagram</span>
             </a>
-        </div>
+          </div>
         </div>
         
         <hr className="border-foreground/10 my-8" />

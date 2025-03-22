@@ -45,16 +45,9 @@ const HeroSection = () => {
             Govt. Authorized Electrical Contractor — EA No. 3071
           </span>
           
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-white mb-6 drop-shadow-sm leading-relaxed">
-  WELCOME TO<br />
-  <span className="uppercase">
-    <span className="text-orange-500">E</span>XCELLENT{" "}
-    <span className="text-orange-500">P</span>OWER{" "}
-    <span className="text-orange-500">E</span>NGINEERING{" "}
-    <span className="text-orange-500">S</span>ERVICES
-  </span>
-</h1>
-
+          <h1 className="heading-xl text-orange-500 mb-6 drop-shadow-sm font-serif">
+            EXCELLENT POWER ENGINEERING SERVICES
+          </h1>
           
           <p className="subtitle text-white/80 mx-auto mb-8">
             Delivering reliable and innovative power solutions with a commitment to excellence and safety since 2015.
