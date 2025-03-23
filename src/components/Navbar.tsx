@@ -45,7 +45,7 @@ const Navbar = () => {
         <nav className="flex items-center justify-between">
         <a 
             href="#home" 
-            className="flex items-center gap-2 font-display font-bold text-primary ml-[-100px]" // <-- left shift
+            className="flex items-center gap-2 font-display font-bold text-primary ml-[-10px]" // <-- left shift
             onClick={(e) => { 
               e.preventDefault();
               scrollToSection('#home');
